@@ -2,73 +2,55 @@ NumPy Mathematical Calculator 🧮
 
 A Python-based interactive calculator using NumPy to perform mathematical, statistical, and array manipulation operations efficiently. This project demonstrates practical usage of NumPy arrays for computations and data analysis.
 
-🎯 Project Overview
+Project Overview
 
-This interactive console application allows users to:
+This interactive console application allows users to:  
 
-Perform basic arithmetic operations on arrays.
+- Perform basic arithmetic operations on arrays.  
+- Conduct statistical analysis such as mean, median, standard deviation, variance, min, max, sum, and product.  
+- Manipulate arrays by reshaping, sorting, finding unique elements, and filtering values.  
 
-Conduct statistical analysis such as mean, median, standard deviation, variance, min, max, sum, and product.
+The calculator leverages NumPy, providing fast and efficient array computations.  
 
-Manipulate arrays by reshaping, sorting, finding unique elements, and filtering values.
+Features  
 
-The calculator leverages NumPy, providing fast and efficient array computations.
+Basic Arithmetic Operations  
+- Addition, Subtraction, Multiplication, Division  
+- Power of arrays (element-wise exponentiation)  
 
-🧩 Features
+Statistical Operations  
+- Mean, Median, Standard Deviation, Variance  
+- Minimum, Maximum, Sum, Product  
+- Array properties: Shape, Size, Data Type  
 
-Basic Arithmetic Operations
+Array Manipulation  
+- Reshape arrays (if possible)  
+- Sorting and reverse sorting  
+- Finding unique values  
+- Accessing first and last elements  
+- Filtering values greater than the mean  
 
-Addition, Subtraction, Multiplication, Division
+Getting Started  
 
-Power of arrays (element-wise exponentiation)
+Prerequisites  
+- Python 3.6 or higher  
+- NumPy library  
 
-Statistical Operations
-
-Mean, Median, Standard Deviation, Variance
-
-Minimum, Maximum, Sum, Product
-
-Array properties: Shape, Size, Data Type
-
-Array Manipulation
-
-Reshape arrays (if possible)
-
-Sorting and reverse sorting
-
-Finding unique values
-
-Accessing first and last elements
-
-Filtering values greater than the mean
-
-🚀 Getting Started
-Prerequisites
-
-Python 3.6 or higher
-
-NumPy library
-
-Install NumPy if not already installed:
+Install NumPy if not already installed:  
 pip install numpy
 
-Running the Calculator
-Clone the repository (or download the .py file):
-
-bash
-Copy code
-git clone https://github.com/yourusername/numpy-math-calculator.git
+Running the Calculator  
+Clone the repository (or download the .py file):  
+git clone https://github.com/kakidineshreddy/numpy-math-calculator.git
 cd numpy-math-calculator
-Run the Python script:
 
-bash
-Copy code
+Run the Python script:  
 python calculator.py
-Follow the on-screen menu to select operations.
 
-📋 Sample Interaction
-pgsql
-Copy code
+Follow the on-screen menu to select operations.  
+
+Sample Interaction  
+
 ===== NumPy Mathematical Calculator =====
 1. Basic Arithmetic Operations
 2. Statistical Operations
@@ -84,38 +66,35 @@ Subtraction : [-3. -3. -3.]
 Multiplication : [ 4. 10. 18.]
 Division : [0.25 0.4  0.5 ]
 Power : [ 1. 32. 729.]
-📚 Learning Objectives
-After using this calculator, you will understand:
 
-Creating and manipulating NumPy arrays
+Learning Objectives  
 
-Performing element-wise operations
+After using this calculator, you will understand:  
+- Creating and manipulating NumPy arrays  
+- Performing element-wise operations  
+- Conducting statistical analysis  
+- Reshaping and transforming arrays  
+- Filtering arrays based on conditions  
+- Differences between Python lists and NumPy arrays  
 
-Conducting statistical analysis
+Key NumPy Functions Used  
 
-Reshaping and transforming arrays
+Category       Functions
+Array Creation np.array()
+Arithmetic     +, -, *, /, **
+Statistical    np.mean(), np.median(), np.std(), np.var(), np.min(), np.max(), np.sum(), np.prod()
+Manipulation   reshape(), np.sort(), np.unique()
 
-Filtering arrays based on conditions
+Contributing  
 
-Differences between Python lists and NumPy arrays
+Contributions are welcome! You can:  
+- Add more mathematical operations  
+- Implement more advanced statistical functions  
+- Improve input validation  
+- Add a GUI for better interaction  
 
-🔧 Key NumPy Functions Used
-Category	Functions
-Array Creation	np.array()
-Arithmetic	+, -, *, /, **
-Statistical	np.mean(), np.median(), np.std(), np.var(), np.min(), np.max(), np.sum(), np.prod()
-Manipulation	reshape(), np.sort(), np.unique()
+License  
 
-🤝 Contributing
-Contributions are welcome! You can:
+This project is licensed under the MIT License.  
 
-Add more mathematical operations
-
-Implement more advanced statistical functions
-
-Improve input validation
-
-Add a GUI for better interaction
-
-📝 License
-This project is licensed under the MIT License.
+GitHub Profile: https://github.com/kakidineshreddy
